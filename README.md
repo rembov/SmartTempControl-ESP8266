@@ -21,27 +21,6 @@
 
 ---
 
-## 📋 Содержимое репозитория
-
-
-
-SmartTempControl\_ESP8266\_OOP/
-│
-├── SmartTempControl\_ESP8266.ino   # Главный скетч с setup() и loop()
-├── src/                           # Исходники C++ классов
-│   ├── TemperatureSensor.h/.cpp   # Класс работы с DS18B20
-│   ├── FanController.h/.cpp       # Класс управления ШИМ‑вентилятором
-│   ├── OLEDDisplay.h/.cpp         # Класс для OLED SSD1306
-│   ├── EEPROMManager.h/.cpp       # Класс для работы с EEPROM
-│   ├── ButtonHandler.h/.cpp       # Класс обработки кнопок
-│   └── ModeManager.h/.cpp         # Класс управления режимами
-├── docs/                          # Документация и схемы
-│   └── schematic.jpg              # Схема подключения в JPEG
-└── README.md                      # Этот файл
-
-
----
-
 ## 🛠️ Необходимые компоненты (Hardware)
 
 - **ESP8266 NodeMCU 1.0 (ESP‑12E Module)**  
